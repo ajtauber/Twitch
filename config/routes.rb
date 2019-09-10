@@ -16,6 +16,9 @@ Rails.application.routes.draw do
 
   get '/twitch/search' => 'twitch#form'
 
+  get '/about' => 'about#index'
+  get '/streamers' => 'twitch#streamers'
+  get '/twitchapp' => 'about#index'
 
   get '/login' => 'session#new'
   post '/login' => 'session#create'
