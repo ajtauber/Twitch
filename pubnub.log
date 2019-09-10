@@ -1,0 +1,830 @@
+# Logfile created on 2019-09-09 11:29:53 +1000 by logger.rb/66358
+D, [2019-09-09T11:29:53.732137 #27486] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2019-09-09T11:29:53.732340 #27486] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.1.6
+D, [2019-09-09T11:29:53.733440 #27486] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:29:53.733593 #27486] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:29:53.733646 #27486] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:29:53.733697 #27486] DEBUG -- Pubnub::Subscriber: Adding subscription to Subscriber
+D, [2019-09-09T11:29:53.733728 #27486] DEBUG -- Pubnub::Subscriber: Added subscription to Subscriber
+D, [2019-09-09T11:29:53.733890 #27486] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:29:53.733972 #27486] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:29:53.734007 #27486] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:29:53.734047 #27486] DEBUG -- Pubnub::Subscriber: Starting subscription
+D, [2019-09-09T11:29:53.734286 #27486] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:29:53.734405 #27486] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:29:53.734452 #27486] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:29:53.734494 #27486] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:29:53.735457 #27486] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=7e391aa1-b81d-4aa5-baef-aa31dec09b16
+D, [2019-09-09T11:29:53.734353 #27486] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2019-09-09T11:29:53.736295 #27486] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2019-09-09T11:29:53.738493 #27486] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2019-09-09T11:29:53.738601 #27486] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:29:53.738720 #27486] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2019-09-09T11:29:53.738753 #27486] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:29:53.738898 #27486] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:29:53.739173 #27486] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:29:53.739371 #27486] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/channel/pubnub_onboarding_channel?count=10&pnsdk=PubNub-Ruby%2F4.1.6&uuid=7e391aa1-b81d-4aa5-baef-aa31dec09b16
+D, [2019-09-09T11:29:53.738950 #27486] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2019-09-09T11:29:53.740775 #27486] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2019-09-09T11:29:53.740853 #27486] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:29:53.740952 #27486] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:29:53.740989 #27486] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:29:53.741022 #27486] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:29:53.741304 #27486] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-0868dcbe-2010-480e-a3a9-bd36ee424813/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/0/pubnub_onboarding_channel/0/%22%7B%5C%22sender%5C%22%3A%5C%22RubySDK%5C%22%2C%5C%22content%5C%22%3A%5C%22Hello%20From%20Ruby%20SDK%21%5C%22%7D%22?ortt=%7B%22t%22%3A15679925937397950%7D&pnsdk=PubNub-Ruby%2F4.1.6&seqn=1&uuid=7e391aa1-b81d-4aa5-baef-aa31dec09b16
+D, [2019-09-09T11:29:54.101262 #27486] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:29:54.208605 #27486] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2019-09-09T11:29:54.101799 #27486] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:29:54.209400 #27486] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2019-09-09T11:29:54.101394 #27486] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:29:54.210233 #27486] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=7e391aa1-b81d-4aa5-baef-aa31dec09b16
+D, [2019-09-09T11:29:54.210570 #27486] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:29:54.210824 #27486] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:29:54.213228 #27486] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:29:54.213524 #27486] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:29:54.213628 #27486] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'db2310e0-fe5c-47dd-84a1-230462ab0f10'.
+D, [2019-09-09T11:29:54.214255 #27486] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:29:54.214481 #27486] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:29:54.214581 #27486] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:29:54.214793 #27486] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:29:54.215125 #27486] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679925939351135%22%7D&uuid=7e391aa1-b81d-4aa5-baef-aa31dec09b16
+D, [2019-09-09T11:30:54.279995 #27486] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:30:54.286028 #27486] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679925939351135%22%7D&uuid=7e391aa1-b81d-4aa5-baef-aa31dec09b16
+D, [2019-09-09T11:30:54.287079 #27486] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:30:54.287365 #27486] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:30:54.295247 #27486] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:30:54.295373 #27486] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:30:54.295493 #27486] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'db2310e0-fe5c-47dd-84a1-230462ab0f10'.
+D, [2019-09-09T11:30:54.297481 #27486] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:30:54.297746 #27486] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:30:54.297818 #27486] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:30:54.297953 #27486] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:30:54.298972 #27486] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679925939351135%22%7D&uuid=7e391aa1-b81d-4aa5-baef-aa31dec09b16
+D, [2019-09-09T11:31:00.910655 #27512] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2019-09-09T11:31:00.911012 #27512] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.1.6
+D, [2019-09-09T11:31:00.911456 #27512] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:31:00.911576 #27512] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:31:00.911628 #27512] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:31:00.911675 #27512] DEBUG -- Pubnub::Subscriber: Adding subscription to Subscriber
+D, [2019-09-09T11:31:00.911705 #27512] DEBUG -- Pubnub::Subscriber: Added subscription to Subscriber
+D, [2019-09-09T11:31:00.911859 #27512] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:31:00.911941 #27512] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:31:00.911990 #27512] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:31:00.912033 #27512] DEBUG -- Pubnub::Subscriber: Starting subscription
+D, [2019-09-09T11:31:00.912399 #27512] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:31:00.912493 #27512] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:31:00.912527 #27512] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:31:00.912557 #27512] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:31:00.913143 #27512] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=0b058c2f-521f-4956-9bcb-925a3de96ebc
+D, [2019-09-09T11:31:00.912452 #27512] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2019-09-09T11:31:00.915256 #27512] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2019-09-09T11:31:00.915959 #27512] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2019-09-09T11:31:00.916170 #27512] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:31:00.916540 #27512] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:31:00.916604 #27512] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:31:00.916795 #27512] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:31:00.917000 #27512] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/channel/pubnub_onboarding_channel?count=10&pnsdk=PubNub-Ruby%2F4.1.6&uuid=0b058c2f-521f-4956-9bcb-925a3de96ebc
+D, [2019-09-09T11:31:00.916109 #27512] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2019-09-09T11:31:00.921871 #27512] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2019-09-09T11:31:00.923039 #27512] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2019-09-09T11:31:00.923103 #27512] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:31:00.923191 #27512] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:31:00.923370 #27512] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:31:00.923469 #27512] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:31:00.923752 #27512] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-0868dcbe-2010-480e-a3a9-bd36ee424813/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/0/pubnub_onboarding_channel/0/%22%7B%5C%22sender%5C%22%3A%5C%22RubySDK%5C%22%2C%5C%22content%5C%22%3A%5C%22Hello%20From%20Ruby%20SDK%21%5C%22%7D%22?ortt=%7B%22t%22%3A15679926609219870%7D&pnsdk=PubNub-Ruby%2F4.1.6&seqn=1&uuid=0b058c2f-521f-4956-9bcb-925a3de96ebc
+D, [2019-09-09T11:31:01.224201 #27512] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:31:01.224631 #27512] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=0b058c2f-521f-4956-9bcb-925a3de96ebc
+D, [2019-09-09T11:31:01.225295 #27512] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:31:01.225450 #27512] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:31:01.248665 #27512] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:31:01.248749 #27512] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:31:01.248779 #27512] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'a3907e50-5f1a-4d2a-8bc7-30e28569b87b'.
+E, [2019-09-09T11:31:01.252382 #27512] ERROR -- Pubnub::Subscriber: Error while calling callback #<IOError: stream closed in another thread>
+D, [2019-09-09T11:31:01.253081 #27512] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:31:01.253273 #27512] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:31:01.253382 #27512] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:31:01.253544 #27512] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:31:01.253853 #27512] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679925939351135%22%7D&uuid=0b058c2f-521f-4956-9bcb-925a3de96ebc
+D, [2019-09-09T11:31:01.270048 #27512] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:31:01.270306 #27512] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2019-09-09T11:31:01.282656 #27512] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:31:01.283050 #27512] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2019-09-09T11:31:01.385042 #27512] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:31:01.385328 #27512] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679925939351135%22%7D&uuid=0b058c2f-521f-4956-9bcb-925a3de96ebc
+D, [2019-09-09T11:31:01.385487 #27512] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:31:01.387781 #27512] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:31:01.390922 #27512] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:31:01.391024 #27512] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:31:01.391063 #27512] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'a3907e50-5f1a-4d2a-8bc7-30e28569b87b'.
+D, [2019-09-09T11:31:01.391491 #27512] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:31:01.391558 #27512] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:31:01.391608 #27512] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:31:01.391718 #27512] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:31:01.394025 #27512] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926612082029%22%7D&uuid=0b058c2f-521f-4956-9bcb-925a3de96ebc
+D, [2019-09-09T11:31:08.959053 #27521] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2019-09-09T11:31:08.959192 #27521] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.1.6
+D, [2019-09-09T11:31:08.959579 #27521] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:31:08.959859 #27521] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:31:08.960001 #27521] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:31:08.960087 #27521] DEBUG -- Pubnub::Subscriber: Adding subscription to Subscriber
+D, [2019-09-09T11:31:08.960312 #27521] DEBUG -- Pubnub::Subscriber: Added subscription to Subscriber
+D, [2019-09-09T11:31:08.960586 #27521] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:31:08.960693 #27521] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:31:08.960747 #27521] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:31:08.960811 #27521] DEBUG -- Pubnub::Subscriber: Starting subscription
+D, [2019-09-09T11:31:08.961141 #27521] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:31:08.961309 #27521] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:31:08.961351 #27521] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:31:08.961389 #27521] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:31:08.961824 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:31:08.961196 #27521] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2019-09-09T11:31:08.962432 #27521] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2019-09-09T11:31:08.962928 #27521] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2019-09-09T11:31:08.963021 #27521] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:31:08.963060 #27521] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:31:08.963124 #27521] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:31:08.963329 #27521] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:31:08.963461 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/channel/pubnub_onboarding_channel?count=10&pnsdk=PubNub-Ruby%2F4.1.6&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:31:08.962985 #27521] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2019-09-09T11:31:08.964013 #27521] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2019-09-09T11:31:08.964820 #27521] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2019-09-09T11:31:08.964879 #27521] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:31:08.965070 #27521] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:31:08.965142 #27521] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:31:08.965187 #27521] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:31:08.965594 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-0868dcbe-2010-480e-a3a9-bd36ee424813/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/0/pubnub_onboarding_channel/0/%22%7B%5C%22sender%5C%22%3A%5C%22RubySDK%5C%22%2C%5C%22content%5C%22%3A%5C%22Hello%20From%20Ruby%20SDK%21%5C%22%7D%22?ortt=%7B%22t%22%3A15679926689640650%7D&pnsdk=PubNub-Ruby%2F4.1.6&seqn=1&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:31:09.204564 #27521] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:31:09.206373 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:31:09.206536 #27521] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:31:09.206694 #27521] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:31:09.216109 #27521] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:31:09.216203 #27521] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:31:09.216338 #27521] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'a963e027-f646-4328-8338-7d502c4ee524'.
+D, [2019-09-09T11:31:09.216830 #27521] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:31:09.216882 #27521] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:31:09.216922 #27521] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:31:09.216978 #27521] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:31:09.218685 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926612082029%22%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:31:09.229961 #27521] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:31:09.230435 #27521] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2019-09-09T11:31:09.233327 #27521] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:31:09.234030 #27521] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2019-09-09T11:31:09.335221 #27521] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:31:09.335696 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926612082029%22%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:31:09.335856 #27521] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:31:09.336123 #27521] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:31:09.337441 #27521] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:31:09.337505 #27521] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:31:09.337739 #27521] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'a963e027-f646-4328-8338-7d502c4ee524'.
+D, [2019-09-09T11:31:09.338190 #27521] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:31:09.338247 #27521] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:31:09.338322 #27521] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:31:09.338501 #27521] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:31:09.338886 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926691754105%22%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:35:34.529996 #27521] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:35:34.534463 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926691754105%22%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:35:34.535460 #27521] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:35:34.535763 #27521] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:35:34.541353 #27521] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:35:34.541456 #27521] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:35:34.541552 #27521] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'a963e027-f646-4328-8338-7d502c4ee524'.
+D, [2019-09-09T11:35:34.542769 #27521] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:35:34.543030 #27521] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:35:34.543080 #27521] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:35:34.543137 #27521] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:35:34.543440 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926691754105%22%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:40:14.800415 #27521] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:40:14.801185 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926691754105%22%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:40:14.801315 #27521] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:40:14.801551 #27521] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:40:14.802699 #27521] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:40:14.802748 #27521] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:40:14.802797 #27521] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'a963e027-f646-4328-8338-7d502c4ee524'.
+D, [2019-09-09T11:40:14.803460 #27521] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:40:14.803510 #27521] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:40:14.803584 #27521] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:40:14.803634 #27521] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:40:14.803931 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926691754105%22%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:44:54.969676 #27521] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:44:54.974927 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926691754105%22%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:44:54.976919 #27521] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:44:54.977291 #27521] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:44:54.985731 #27521] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:44:54.985854 #27521] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:44:54.985920 #27521] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'a963e027-f646-4328-8338-7d502c4ee524'.
+D, [2019-09-09T11:44:54.987291 #27521] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:44:54.987395 #27521] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:44:54.987425 #27521] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:44:54.987504 #27521] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:44:54.987898 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926691754105%22%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:49:35.256374 #27521] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:49:35.263557 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926691754105%22%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:49:35.264783 #27521] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:49:35.265308 #27521] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:49:35.287262 #27521] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:49:35.287413 #27521] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:49:35.287515 #27521] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'a963e027-f646-4328-8338-7d502c4ee524'.
+D, [2019-09-09T11:49:35.291318 #27521] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:49:35.291589 #27521] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:49:35.291648 #27521] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:49:35.291755 #27521] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:49:35.292550 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926691754105%22%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:54:15.568617 #27521] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:54:15.576053 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926691754105%22%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:54:15.579141 #27521] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:54:15.579768 #27521] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:54:15.594376 #27521] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:54:15.594506 #27521] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:54:15.594565 #27521] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'a963e027-f646-4328-8338-7d502c4ee524'.
+D, [2019-09-09T11:54:15.599836 #27521] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:54:15.599977 #27521] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:54:15.600765 #27521] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:54:15.600930 #27521] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:54:15.602147 #27521] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679926691754105%22%7D&uuid=3984b066-f279-4caa-ad27-1bf812abffc2
+D, [2019-09-09T11:57:06.002806 #28073] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2019-09-09T11:57:06.003326 #28073] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.1.6
+D, [2019-09-09T11:57:06.003855 #28073] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:57:06.003991 #28073] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:57:06.004038 #28073] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:57:06.004083 #28073] DEBUG -- Pubnub::Subscriber: Adding subscription to Subscriber
+D, [2019-09-09T11:57:06.004112 #28073] DEBUG -- Pubnub::Subscriber: Added subscription to Subscriber
+D, [2019-09-09T11:57:06.004291 #28073] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:57:06.004372 #28073] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:57:06.004403 #28073] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:57:06.004444 #28073] DEBUG -- Pubnub::Subscriber: Starting subscription
+D, [2019-09-09T11:57:06.004726 #28073] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:57:06.004822 #28073] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:57:06.004863 #28073] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:57:06.004897 #28073] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:57:06.005398 #28073] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=1f4711c8-04a4-47ba-9095-19f63a84e78c
+D, [2019-09-09T11:57:06.004779 #28073] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2019-09-09T11:57:06.005947 #28073] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2019-09-09T11:57:06.006381 #28073] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2019-09-09T11:57:06.006469 #28073] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:57:06.006508 #28073] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:57:06.006544 #28073] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:57:06.006675 #28073] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:57:06.006786 #28073] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/channel/pubnub_onboarding_channel?count=10&pnsdk=PubNub-Ruby%2F4.1.6&uuid=1f4711c8-04a4-47ba-9095-19f63a84e78c
+D, [2019-09-09T11:57:06.006433 #28073] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2019-09-09T11:57:06.007246 #28073] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2019-09-09T11:57:06.008482 #28073] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2019-09-09T11:57:06.008554 #28073] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:57:06.008645 #28073] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:57:06.008703 #28073] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:57:06.008982 #28073] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:57:06.010349 #28073] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-0868dcbe-2010-480e-a3a9-bd36ee424813/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/0/pubnub_onboarding_channel/0/%22%7B%5C%22sender%5C%22%3A%5C%22RubySDK%5C%22%2C%5C%22content%5C%22%3A%5C%22Hello%20From%20Ruby%20SDK%21%5C%22%7D%22?ortt=%7B%22t%22%3A15679942260073002%7D&pnsdk=PubNub-Ruby%2F4.1.6&seqn=1&uuid=1f4711c8-04a4-47ba-9095-19f63a84e78c
+D, [2019-09-09T11:57:06.401007 #28073] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:57:06.401410 #28073] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2019-09-09T11:57:06.575681 #28073] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:57:06.577413 #28073] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2019-09-09T11:57:06.577532 #28073] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:57:06.582345 #28073] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=1f4711c8-04a4-47ba-9095-19f63a84e78c
+D, [2019-09-09T11:57:06.582840 #28073] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:57:06.582961 #28073] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:57:06.587847 #28073] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:57:06.587951 #28073] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:57:06.588037 #28073] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '434ad318-07ff-4d4f-af74-94455a8810fe'.
+D, [2019-09-09T11:57:06.588705 #28073] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:57:06.590652 #28073] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:57:06.590710 #28073] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:57:06.590738 #28073] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:57:06.591721 #28073] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679942263435390%22%7D&uuid=1f4711c8-04a4-47ba-9095-19f63a84e78c
+D, [2019-09-09T11:57:38.951893 #28090] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2019-09-09T11:57:38.952611 #28090] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.1.6
+D, [2019-09-09T11:57:38.953356 #28090] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:57:38.953565 #28090] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:57:38.953638 #28090] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:57:38.953701 #28090] DEBUG -- Pubnub::Subscriber: Adding subscription to Subscriber
+D, [2019-09-09T11:57:38.953739 #28090] DEBUG -- Pubnub::Subscriber: Added subscription to Subscriber
+D, [2019-09-09T11:57:38.953930 #28090] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:57:38.954013 #28090] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:57:38.954065 #28090] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:57:38.954112 #28090] DEBUG -- Pubnub::Subscriber: Starting subscription
+D, [2019-09-09T11:57:38.954361 #28090] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:57:38.954403 #28090] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:57:38.954467 #28090] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2019-09-09T11:57:38.954552 #28090] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:57:38.954665 #28090] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:57:38.955442 #28090] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=155de5fb-a4f3-4d8b-a6a9-34c82da70e71
+D, [2019-09-09T11:57:38.954624 #28090] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2019-09-09T11:57:38.957014 #28090] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2019-09-09T11:57:38.957324 #28090] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:57:38.958386 #28090] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:57:38.958462 #28090] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:57:38.958656 #28090] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:57:38.958819 #28090] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/channel/pubnub_onboarding_channel?count=10&pnsdk=PubNub-Ruby%2F4.1.6&uuid=155de5fb-a4f3-4d8b-a6a9-34c82da70e71
+D, [2019-09-09T11:57:38.957687 #28090] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2019-09-09T11:57:38.961088 #28090] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2019-09-09T11:57:38.969166 #28090] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2019-09-09T11:57:38.969300 #28090] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:57:38.969336 #28090] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:57:38.969362 #28090] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:57:38.969384 #28090] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:57:38.969793 #28090] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-0868dcbe-2010-480e-a3a9-bd36ee424813/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/0/pubnub_onboarding_channel/0/%22%7B%5C%22sender%5C%22%3A%5C%22RubySDK%5C%22%2C%5C%22content%5C%22%3A%5C%22Hello%20From%20Ruby%20SDK%21%5C%22%7D%22?ortt=%7B%22t%22%3A15679942589611890%7D&pnsdk=PubNub-Ruby%2F4.1.6&seqn=1&uuid=155de5fb-a4f3-4d8b-a6a9-34c82da70e71
+D, [2019-09-09T11:57:39.278317 #28090] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:57:39.360445 #28090] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=155de5fb-a4f3-4d8b-a6a9-34c82da70e71
+D, [2019-09-09T11:57:39.362023 #28090] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:57:39.362530 #28090] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:57:39.365078 #28090] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:57:39.365275 #28090] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:57:39.365437 #28090] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'f7856323-c349-461d-93c8-b839ffbb48a1'.
+D, [2019-09-09T11:57:39.366229 #28090] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:57:39.366412 #28090] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:57:39.366474 #28090] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:57:39.366809 #28090] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:57:39.367094 #28090] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679942263435390%22%7D&uuid=155de5fb-a4f3-4d8b-a6a9-34c82da70e71
+D, [2019-09-09T11:57:39.387740 #28090] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:57:39.388206 #28090] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2019-09-09T11:57:39.391959 #28090] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:57:39.392219 #28090] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2019-09-09T11:57:39.489653 #28090] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:57:39.490045 #28090] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679942263435390%22%7D&uuid=155de5fb-a4f3-4d8b-a6a9-34c82da70e71
+D, [2019-09-09T11:57:39.490275 #28090] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:57:39.490569 #28090] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:57:39.491642 #28090] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:57:39.491830 #28090] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:57:39.491903 #28090] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'f7856323-c349-461d-93c8-b839ffbb48a1'.
+D, [2019-09-09T11:57:39.492285 #28090] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:57:39.492355 #28090] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:57:39.492390 #28090] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:57:39.492415 #28090] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:57:39.492898 #28090] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679942593328490%22%7D&uuid=155de5fb-a4f3-4d8b-a6a9-34c82da70e71
+D, [2019-09-09T11:58:06.378479 #28105] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2019-09-09T11:58:06.378939 #28105] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.1.6
+D, [2019-09-09T11:58:06.379358 #28105] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:58:06.379473 #28105] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:58:06.379516 #28105] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:58:06.379559 #28105] DEBUG -- Pubnub::Subscriber: Adding subscription to Subscriber
+D, [2019-09-09T11:58:06.379589 #28105] DEBUG -- Pubnub::Subscriber: Added subscription to Subscriber
+D, [2019-09-09T11:58:06.379730 #28105] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:58:06.379825 #28105] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:58:06.379859 #28105] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:58:06.379897 #28105] DEBUG -- Pubnub::Subscriber: Starting subscription
+D, [2019-09-09T11:58:06.380154 #28105] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:58:06.380229 #28105] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:58:06.380267 #28105] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:58:06.380303 #28105] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:58:06.380725 #28105] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=9377ff39-23b3-4401-b681-ab93b49732d5
+D, [2019-09-09T11:58:06.380192 #28105] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2019-09-09T11:58:06.381201 #28105] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2019-09-09T11:58:06.381620 #28105] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2019-09-09T11:58:06.381724 #28105] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:58:06.381763 #28105] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:58:06.381796 #28105] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:58:06.381966 #28105] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:58:06.382101 #28105] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/channel/pubnub_onboarding_channel?count=10&pnsdk=PubNub-Ruby%2F4.1.6&uuid=9377ff39-23b3-4401-b681-ab93b49732d5
+D, [2019-09-09T11:58:06.381680 #28105] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2019-09-09T11:58:06.382591 #28105] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2019-09-09T11:58:06.383615 #28105] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2019-09-09T11:58:06.383770 #28105] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:58:06.383856 #28105] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:58:06.383958 #28105] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:58:06.383984 #28105] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:58:06.384231 #28105] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-0868dcbe-2010-480e-a3a9-bd36ee424813/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/0/pubnub_onboarding_channel/0/%22%7B%5C%22sender%5C%22%3A%5C%22RubySDK%5C%22%2C%5C%22content%5C%22%3A%5C%22Hello%20From%20Ruby%20SDK%21%5C%22%7D%22?ortt=%7B%22t%22%3A15679942863826758%7D&pnsdk=PubNub-Ruby%2F4.1.6&seqn=1&uuid=9377ff39-23b3-4401-b681-ab93b49732d5
+D, [2019-09-09T11:58:06.758681 #28105] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:58:06.759489 #28105] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2019-09-09T11:58:06.759638 #28105] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:58:06.760257 #28105] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2019-09-09T11:58:06.759076 #28105] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:58:06.812437 #28105] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=9377ff39-23b3-4401-b681-ab93b49732d5
+D, [2019-09-09T11:58:06.812613 #28105] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:58:06.812786 #28105] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:58:06.817183 #28105] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:58:06.817292 #28105] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:58:06.817369 #28105] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '8a50ec9b-d76b-4ce6-a19e-74b5ee1f2d31'.
+D, [2019-09-09T11:58:06.818304 #28105] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:58:06.820159 #28105] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:58:06.820319 #28105] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:58:06.820529 #28105] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:58:06.822397 #28105] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679942593328490%22%7D&uuid=9377ff39-23b3-4401-b681-ab93b49732d5
+D, [2019-09-09T11:58:06.934686 #28105] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:58:06.935203 #28105] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679942593328490%22%7D&uuid=9377ff39-23b3-4401-b681-ab93b49732d5
+D, [2019-09-09T11:58:06.935396 #28105] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:58:06.935482 #28105] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:58:06.936538 #28105] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:58:06.936665 #28105] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:58:06.936732 #28105] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '8a50ec9b-d76b-4ce6-a19e-74b5ee1f2d31'.
+D, [2019-09-09T11:58:06.937270 #28105] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:58:06.937333 #28105] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:58:06.937383 #28105] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:58:06.937431 #28105] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:58:06.937752 #28105] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679942866610442%22%7D&uuid=9377ff39-23b3-4401-b681-ab93b49732d5
+D, [2019-09-09T11:58:55.899454 #28105] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:58:55.904361 #28105] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679942866610442%22%7D&uuid=9377ff39-23b3-4401-b681-ab93b49732d5
+D, [2019-09-09T11:58:55.905483 #28105] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:58:55.905787 #28105] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:58:55.913604 #28105] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:58:55.913783 #28105] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:58:55.913854 #28105] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '8a50ec9b-d76b-4ce6-a19e-74b5ee1f2d31'.
+D, [2019-09-09T11:58:55.916258 #28105] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:58:55.916459 #28105] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:58:55.916523 #28105] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:58:55.916621 #28105] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:58:55.917118 #28105] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679942866610442%22%7D&uuid=9377ff39-23b3-4401-b681-ab93b49732d5
+D, [2019-09-09T11:59:24.143333 #28181] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2019-09-09T11:59:24.143925 #28181] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.1.6
+D, [2019-09-09T11:59:24.144530 #28181] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:59:24.144663 #28181] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:59:24.144719 #28181] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:59:24.144769 #28181] DEBUG -- Pubnub::Subscriber: Adding subscription to Subscriber
+D, [2019-09-09T11:59:24.144800 #28181] DEBUG -- Pubnub::Subscriber: Added subscription to Subscriber
+D, [2019-09-09T11:59:24.144953 #28181] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T11:59:24.145023 #28181] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T11:59:24.145052 #28181] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T11:59:24.145094 #28181] DEBUG -- Pubnub::Subscriber: Starting subscription
+D, [2019-09-09T11:59:24.145353 #28181] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:59:24.145484 #28181] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:59:24.145537 #28181] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:59:24.145592 #28181] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:59:24.146034 #28181] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=76fad4fc-b27f-410e-aaed-0358e13cc49b
+D, [2019-09-09T11:59:24.145422 #28181] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2019-09-09T11:59:24.146562 #28181] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2019-09-09T11:59:24.147104 #28181] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2019-09-09T11:59:24.147243 #28181] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:59:24.147293 #28181] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:59:24.147334 #28181] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:59:24.147533 #28181] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:59:24.147778 #28181] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/channel/pubnub_onboarding_channel?count=10&pnsdk=PubNub-Ruby%2F4.1.6&uuid=76fad4fc-b27f-410e-aaed-0358e13cc49b
+D, [2019-09-09T11:59:24.147188 #28181] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2019-09-09T11:59:24.148342 #28181] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2019-09-09T11:59:24.149559 #28181] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2019-09-09T11:59:24.149712 #28181] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T11:59:24.149760 #28181] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T11:59:24.149921 #28181] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T11:59:24.150080 #28181] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T11:59:24.150411 #28181] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-0868dcbe-2010-480e-a3a9-bd36ee424813/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/0/pubnub_onboarding_channel/0/%22%7B%5C%22sender%5C%22%3A%5C%22RubySDK%5C%22%2C%5C%22content%5C%22%3A%5C%22Hello%20From%20Ruby%20SDK%21%5C%22%7D%22?ortt=%7B%22t%22%3A15679943641484030%7D&pnsdk=PubNub-Ruby%2F4.1.6&seqn=1&uuid=76fad4fc-b27f-410e-aaed-0358e13cc49b
+D, [2019-09-09T11:59:24.386452 #28181] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:59:24.387362 #28181] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=76fad4fc-b27f-410e-aaed-0358e13cc49b
+D, [2019-09-09T11:59:24.387521 #28181] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:59:24.387670 #28181] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:59:24.391978 #28181] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:59:24.392100 #28181] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:59:24.392136 #28181] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '630447cb-3f47-4a5b-973e-f60d245d53c0'.
+D, [2019-09-09T11:59:24.393230 #28181] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:59:24.393276 #28181] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:59:24.393322 #28181] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:59:24.393357 #28181] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:59:24.394078 #28181] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679942866610442%22%7D&uuid=76fad4fc-b27f-410e-aaed-0358e13cc49b
+D, [2019-09-09T11:59:24.400715 #28181] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:59:24.401163 #28181] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2019-09-09T11:59:24.439707 #28181] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:59:24.440049 #28181] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2019-09-09T11:59:24.442210 #28105] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:59:24.443496 #28105] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679942866610442%22%7D&uuid=9377ff39-23b3-4401-b681-ab93b49732d5
+D, [2019-09-09T11:59:24.444226 #28105] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:59:24.444955 #28105] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:59:24.451673 #28105] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:59:24.451776 #28105] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:59:24.451839 #28105] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '8a50ec9b-d76b-4ce6-a19e-74b5ee1f2d31'.
+D, [2019-09-09T11:59:24.453916 #28105] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:59:24.454047 #28105] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:59:24.454107 #28105] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:59:24.454201 #28105] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:59:24.454561 #28105] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679943643873642%22%7D&uuid=9377ff39-23b3-4401-b681-ab93b49732d5
+D, [2019-09-09T11:59:24.509134 #28181] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T11:59:24.509627 #28181] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679942866610442%22%7D&uuid=76fad4fc-b27f-410e-aaed-0358e13cc49b
+D, [2019-09-09T11:59:24.511986 #28181] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T11:59:24.512145 #28181] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T11:59:24.514285 #28181] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T11:59:24.515396 #28181] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T11:59:24.515512 #28181] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '630447cb-3f47-4a5b-973e-f60d245d53c0'.
+D, [2019-09-09T11:59:24.517392 #28181] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T11:59:24.517445 #28181] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T11:59:24.517491 #28181] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T11:59:24.517520 #28181] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T11:59:24.517839 #28181] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679943643873642%22%7D&uuid=76fad4fc-b27f-410e-aaed-0358e13cc49b
+D, [2019-09-09T12:03:36.163999 #28105] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:03:36.165857 #28181] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:03:36.167792 #28105] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679943643873642%22%7D&uuid=9377ff39-23b3-4401-b681-ab93b49732d5
+D, [2019-09-09T12:03:36.168813 #28105] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:03:36.169120 #28105] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:03:36.175659 #28181] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679943643873642%22%7D&uuid=76fad4fc-b27f-410e-aaed-0358e13cc49b
+D, [2019-09-09T12:03:36.180721 #28181] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:03:36.181176 #28181] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:03:36.183434 #28105] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:03:36.183550 #28105] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:03:36.183600 #28105] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '8a50ec9b-d76b-4ce6-a19e-74b5ee1f2d31'.
+D, [2019-09-09T12:03:36.190229 #28105] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:03:36.190374 #28105] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:03:36.190429 #28105] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:03:36.190498 #28105] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:03:36.190933 #28105] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679943643873642%22%7D&uuid=9377ff39-23b3-4401-b681-ab93b49732d5
+D, [2019-09-09T12:03:36.192985 #28181] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:03:36.193185 #28181] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:03:36.193272 #28181] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '630447cb-3f47-4a5b-973e-f60d245d53c0'.
+D, [2019-09-09T12:03:36.198396 #28181] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:03:36.198810 #28181] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:03:36.198883 #28181] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:03:36.199023 #28181] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:03:36.199731 #28181] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679943643873642%22%7D&uuid=76fad4fc-b27f-410e-aaed-0358e13cc49b
+D, [2019-09-09T12:06:30.796902 #28343] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2019-09-09T12:06:30.797327 #28343] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.1.6
+D, [2019-09-09T12:06:30.797777 #28343] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T12:06:30.797914 #28343] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T12:06:30.797964 #28343] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T12:06:30.798013 #28343] DEBUG -- Pubnub::Subscriber: Adding subscription to Subscriber
+D, [2019-09-09T12:06:30.798045 #28343] DEBUG -- Pubnub::Subscriber: Added subscription to Subscriber
+D, [2019-09-09T12:06:30.798226 #28343] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T12:06:30.798309 #28343] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T12:06:30.798341 #28343] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T12:06:30.798381 #28343] DEBUG -- Pubnub::Subscriber: Starting subscription
+D, [2019-09-09T12:06:30.798672 #28343] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:06:30.798762 #28343] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:06:30.798797 #28343] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:06:30.798854 #28343] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:06:30.799278 #28343] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=9fa50388-c284-44eb-98f6-d6995c02a6e1
+D, [2019-09-09T12:06:30.798721 #28343] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2019-09-09T12:06:30.799756 #28343] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2019-09-09T12:06:30.800192 #28343] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2019-09-09T12:06:30.800295 #28343] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T12:06:30.800333 #28343] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T12:06:30.800367 #28343] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T12:06:30.800526 #28343] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T12:06:30.800662 #28343] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/channel/pubnub_onboarding_channel?count=10&pnsdk=PubNub-Ruby%2F4.1.6&uuid=9fa50388-c284-44eb-98f6-d6995c02a6e1
+D, [2019-09-09T12:06:30.800251 #28343] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2019-09-09T12:06:30.801146 #28343] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2019-09-09T12:06:30.802222 #28343] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2019-09-09T12:06:30.802376 #28343] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T12:06:30.802458 #28343] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T12:06:30.802560 #28343] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T12:06:30.802595 #28343] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T12:06:30.802853 #28343] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-0868dcbe-2010-480e-a3a9-bd36ee424813/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/0/pubnub_onboarding_channel/0/%22%7B%5C%22sender%5C%22%3A%5C%22RubySDK%5C%22%2C%5C%22content%5C%22%3A%5C%22Hello%20From%20Ruby%20SDK%21%5C%22%7D%22?ortt=%7B%22t%22%3A15679947908012280%7D&pnsdk=PubNub-Ruby%2F4.1.6&seqn=1&uuid=9fa50388-c284-44eb-98f6-d6995c02a6e1
+D, [2019-09-09T12:06:31.108283 #28181] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:06:31.108896 #28181] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679943643873642%22%7D&uuid=76fad4fc-b27f-410e-aaed-0358e13cc49b
+D, [2019-09-09T12:06:31.109085 #28181] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:06:31.109196 #28181] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:06:31.111270 #28181] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:06:31.111336 #28181] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:06:31.111362 #28181] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '630447cb-3f47-4a5b-973e-f60d245d53c0'.
+D, [2019-09-09T12:06:31.115470 #28181] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:06:31.115594 #28181] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:06:31.115768 #28181] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:06:31.115823 #28181] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:06:31.117123 #28181] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679947910493461%22%7D&uuid=76fad4fc-b27f-410e-aaed-0358e13cc49b
+D, [2019-09-09T12:06:31.222757 #28343] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:06:31.223086 #28343] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2019-09-09T12:06:31.303606 #28343] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:06:31.328857 #28343] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=9fa50388-c284-44eb-98f6-d6995c02a6e1
+D, [2019-09-09T12:06:31.328103 #28343] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:06:31.413348 #28343] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2019-09-09T12:06:31.410026 #28343] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:06:31.414066 #28343] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:06:31.419648 #28343] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:06:31.426605 #28343] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:06:31.426723 #28343] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '514ef2c1-362f-4e0e-8db7-41e33c7ca813'.
+D, [2019-09-09T12:06:31.492572 #28343] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:06:31.492791 #28343] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:06:31.492840 #28343] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:06:31.492937 #28343] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:06:31.493246 #28343] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679947910493461%22%7D&uuid=9fa50388-c284-44eb-98f6-d6995c02a6e1
+D, [2019-09-09T12:08:16.455561 #28343] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:08:16.457301 #28343] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679947910493461%22%7D&uuid=9fa50388-c284-44eb-98f6-d6995c02a6e1
+D, [2019-09-09T12:08:16.457518 #28343] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:08:16.457659 #28343] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:08:16.460386 #28343] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:08:16.460524 #28343] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:08:16.460578 #28343] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '514ef2c1-362f-4e0e-8db7-41e33c7ca813'.
+D, [2019-09-09T12:08:16.462112 #28343] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:08:16.462218 #28343] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:08:16.466160 #28343] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:08:16.466273 #28343] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:08:16.466629 #28343] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679947910493461%22%7D&uuid=9fa50388-c284-44eb-98f6-d6995c02a6e1
+D, [2019-09-09T12:08:22.018261 #28394] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2019-09-09T12:08:22.018491 #28394] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.1.6
+D, [2019-09-09T12:08:22.019081 #28394] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T12:08:22.019241 #28394] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T12:08:22.019298 #28394] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T12:08:22.019351 #28394] DEBUG -- Pubnub::Subscriber: Adding subscription to Subscriber
+D, [2019-09-09T12:08:22.019382 #28394] DEBUG -- Pubnub::Subscriber: Added subscription to Subscriber
+D, [2019-09-09T12:08:22.019538 #28394] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T12:08:22.019610 #28394] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T12:08:22.019640 #28394] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T12:08:22.019677 #28394] DEBUG -- Pubnub::Subscriber: Starting subscription
+D, [2019-09-09T12:08:22.019987 #28394] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:08:22.020091 #28394] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:08:22.020126 #28394] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:08:22.020164 #28394] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:08:22.020050 #28394] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2019-09-09T12:08:22.020618 #28394] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=07271c2b-5c43-408f-a684-6e8cda29bfff
+D, [2019-09-09T12:08:22.020720 #28394] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2019-09-09T12:08:22.021718 #28394] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2019-09-09T12:08:22.021836 #28394] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T12:08:22.021871 #28394] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T12:08:22.021903 #28394] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T12:08:22.021789 #28394] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2019-09-09T12:08:22.022077 #28394] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T12:08:22.022532 #28394] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/channel/pubnub_onboarding_channel?count=10&pnsdk=PubNub-Ruby%2F4.1.6&uuid=07271c2b-5c43-408f-a684-6e8cda29bfff
+D, [2019-09-09T12:08:22.022200 #28394] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2019-09-09T12:08:22.028712 #28394] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2019-09-09T12:08:22.028944 #28394] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T12:08:22.029008 #28394] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T12:08:22.029248 #28394] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T12:08:22.029412 #28394] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T12:08:22.029651 #28394] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-0868dcbe-2010-480e-a3a9-bd36ee424813/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/0/pubnub_onboarding_channel/0/%22%7B%5C%22sender%5C%22%3A%5C%22RubySDK%5C%22%2C%5C%22content%5C%22%3A%5C%22Hello%20From%20Ruby%20SDK%21%5C%22%7D%22?ortt=%7B%22t%22%3A15679949020274060%7D&pnsdk=PubNub-Ruby%2F4.1.6&seqn=1&uuid=07271c2b-5c43-408f-a684-6e8cda29bfff
+D, [2019-09-09T12:08:22.392019 #28343] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:08:22.392598 #28343] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679947910493461%22%7D&uuid=9fa50388-c284-44eb-98f6-d6995c02a6e1
+D, [2019-09-09T12:08:22.392757 #28343] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:08:22.392843 #28343] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:08:22.394011 #28343] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:08:22.394106 #28343] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:08:22.394161 #28343] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '514ef2c1-362f-4e0e-8db7-41e33c7ca813'.
+D, [2019-09-09T12:08:22.394866 #28343] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:08:22.394940 #28343] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:08:22.394980 #28343] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:08:22.395022 #28343] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:08:22.395280 #28343] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679949023388850%22%7D&uuid=9fa50388-c284-44eb-98f6-d6995c02a6e1
+D, [2019-09-09T12:08:22.439893 #28394] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:08:22.440750 #28394] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2019-09-09T12:08:22.440942 #28394] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:08:22.440084 #28394] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:08:22.443945 #28394] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=07271c2b-5c43-408f-a684-6e8cda29bfff
+D, [2019-09-09T12:08:22.445055 #28394] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:08:22.445322 #28394] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:08:22.453040 #28394] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:08:22.453146 #28394] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:08:22.453300 #28394] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'df632f3a-d6d4-4c46-a101-21766f289b5f'.
+D, [2019-09-09T12:08:22.443176 #28394] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2019-09-09T12:08:22.456641 #28394] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:08:22.456738 #28394] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:08:22.456785 #28394] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:08:22.456872 #28394] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:08:22.457292 #28394] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679949023388850%22%7D&uuid=07271c2b-5c43-408f-a684-6e8cda29bfff
+D, [2019-09-09T12:13:02.680537 #28477] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2019-09-09T12:13:02.680775 #28477] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.1.6
+D, [2019-09-09T12:13:02.681654 #28477] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T12:13:02.682149 #28477] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T12:13:02.682384 #28477] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T12:13:02.682608 #28477] DEBUG -- Pubnub::Subscriber: Adding subscription to Subscriber
+D, [2019-09-09T12:13:02.690821 #28477] DEBUG -- Pubnub::Subscriber: Added subscription to Subscriber
+D, [2019-09-09T12:13:02.691350 #28477] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T12:13:02.691499 #28477] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T12:13:02.691592 #28477] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T12:13:02.691709 #28477] DEBUG -- Pubnub::Subscriber: Starting subscription
+D, [2019-09-09T12:13:02.692214 #28477] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:13:02.692362 #28477] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:13:02.692431 #28477] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:13:02.692552 #28477] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:13:02.693309 #28477] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=d4140607-d0c6-4e97-9d6c-db1a2ab6ed3d
+D, [2019-09-09T12:13:02.692291 #28477] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2019-09-09T12:13:02.694199 #28477] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2019-09-09T12:13:02.694843 #28477] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2019-09-09T12:13:02.694991 #28477] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T12:13:02.695049 #28477] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T12:13:02.695094 #28477] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T12:13:02.694938 #28477] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2019-09-09T12:13:02.695379 #28477] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T12:13:02.695766 #28477] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/channel/pubnub_onboarding_channel?count=10&pnsdk=PubNub-Ruby%2F4.1.6&uuid=d4140607-d0c6-4e97-9d6c-db1a2ab6ed3d
+D, [2019-09-09T12:13:02.696031 #28477] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2019-09-09T12:13:02.698967 #28477] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2019-09-09T12:13:02.699078 #28477] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T12:13:02.699191 #28477] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T12:13:02.699240 #28477] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T12:13:02.699324 #28477] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T12:13:02.699762 #28477] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-0868dcbe-2010-480e-a3a9-bd36ee424813/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/0/pubnub_onboarding_channel/0/%22%7B%5C%22sender%5C%22%3A%5C%22RubySDK%5C%22%2C%5C%22content%5C%22%3A%5C%22Hello%20From%20Ruby%20SDK%21%5C%22%7D%22?ortt=%7B%22t%22%3A15679951826965352%7D&pnsdk=PubNub-Ruby%2F4.1.6&seqn=1&uuid=d4140607-d0c6-4e97-9d6c-db1a2ab6ed3d
+D, [2019-09-09T12:13:03.681640 #28477] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:13:03.738132 #28477] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2019-09-09T12:13:03.783005 #28477] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:13:03.825731 #28477] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=d4140607-d0c6-4e97-9d6c-db1a2ab6ed3d
+D, [2019-09-09T12:13:03.826292 #28477] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:13:03.826802 #28477] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:13:03.830554 #28477] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:13:03.830685 #28477] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:13:03.830931 #28477] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '4026fe5f-0b56-4143-8f13-d6759b65322a'.
+D, [2019-09-09T12:13:03.738621 #28477] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:13:03.909756 #28477] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2019-09-09T12:13:03.832507 #28477] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:13:03.910313 #28477] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:13:03.910579 #28477] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:13:03.910782 #28477] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:13:03.911333 #28477] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679951836288285%22%7D&uuid=d4140607-d0c6-4e97-9d6c-db1a2ab6ed3d
+D, [2019-09-09T12:17:43.718624 #28477] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:17:43.725640 #28477] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679951836288285%22%7D&uuid=d4140607-d0c6-4e97-9d6c-db1a2ab6ed3d
+D, [2019-09-09T12:17:43.726765 #28477] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:17:43.727723 #28477] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:17:43.738715 #28477] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:17:43.738872 #28477] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:17:43.738982 #28477] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '4026fe5f-0b56-4143-8f13-d6759b65322a'.
+D, [2019-09-09T12:17:43.743978 #28477] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:17:43.744403 #28477] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:17:43.744537 #28477] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:17:43.744869 #28477] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:17:43.745891 #28477] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679951836288285%22%7D&uuid=d4140607-d0c6-4e97-9d6c-db1a2ab6ed3d
+D, [2019-09-09T12:19:05.379544 #28571] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2019-09-09T12:19:05.380227 #28571] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.1.6
+D, [2019-09-09T12:19:05.380917 #28571] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T12:19:05.381139 #28571] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T12:19:05.381219 #28571] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T12:19:05.381275 #28571] DEBUG -- Pubnub::Subscriber: Adding subscription to Subscriber
+D, [2019-09-09T12:19:05.381308 #28571] DEBUG -- Pubnub::Subscriber: Added subscription to Subscriber
+D, [2019-09-09T12:19:05.381512 #28571] DEBUG -- Pubnub::Telemetry: Fetching telemetry for 
+D, [2019-09-09T12:19:05.381584 #28571] DEBUG -- Pubnub::Event: Initialized Pubnub::Subscribe
+D, [2019-09-09T12:19:05.381614 #28571] DEBUG -- Pubnub::Client: Apply state
+D, [2019-09-09T12:19:05.381651 #28571] DEBUG -- Pubnub::Subscriber: Starting subscription
+D, [2019-09-09T12:19:05.381890 #28571] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:19:05.381928 #28571] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:19:05.382024 #28571] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:19:05.382055 #28571] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:19:05.381985 #28571] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2019-09-09T12:19:05.382498 #28571] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=cfc01410-10b5-4388-bfc5-37358d7a613d
+D, [2019-09-09T12:19:05.382603 #28571] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2019-09-09T12:19:05.383570 #28571] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2019-09-09T12:19:05.383702 #28571] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T12:19:05.383757 #28571] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T12:19:05.383799 #28571] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T12:19:05.383922 #28571] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T12:19:05.384063 #28571] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/channel/pubnub_onboarding_channel?count=10&pnsdk=PubNub-Ruby%2F4.1.6&uuid=cfc01410-10b5-4388-bfc5-37358d7a613d
+D, [2019-09-09T12:19:05.383654 #28571] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2019-09-09T12:19:05.384558 #28571] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2019-09-09T12:19:05.385494 #28571] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2019-09-09T12:19:05.385555 #28571] DEBUG -- Pubnub::Event: #send_request called
+D, [2019-09-09T12:19:05.385620 #28571] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2019-09-09T12:19:05.385719 #28571] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2019-09-09T12:19:05.385795 #28571] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2019-09-09T12:19:05.386033 #28571] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-0868dcbe-2010-480e-a3a9-bd36ee424813/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/0/pubnub_onboarding_channel/0/%22%7B%5C%22sender%5C%22%3A%5C%22RubySDK%5C%22%2C%5C%22content%5C%22%3A%5C%22Hello%20From%20Ruby%20SDK%21%5C%22%7D%22?ortt=%7B%22t%22%3A15679955453846058%7D&pnsdk=PubNub-Ruby%2F4.1.6&seqn=1&uuid=cfc01410-10b5-4388-bfc5-37358d7a613d
+D, [2019-09-09T12:19:05.641350 #28571] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:19:05.642037 #28571] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2019-09-09T12:19:05.642296 #28571] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:19:05.642668 #28571] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A0%2C%22t%22%3A0%7D&uuid=cfc01410-10b5-4388-bfc5-37358d7a613d
+D, [2019-09-09T12:19:05.642840 #28571] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:19:05.642950 #28571] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:19:05.645834 #28571] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:19:05.645936 #28571] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:19:05.646051 #28571] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'f130b343-3f72-46af-90b9-113d78b35cad'.
+D, [2019-09-09T12:19:05.646826 #28571] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:19:05.646900 #28571] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:19:05.646994 #28571] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:19:05.647063 #28571] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:19:05.647347 #28571] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679951836288285%22%7D&uuid=cfc01410-10b5-4388-bfc5-37358d7a613d
+D, [2019-09-09T12:19:05.652324 #28571] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:19:05.652746 #28571] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2019-09-09T12:19:05.657754 #28477] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:19:05.661277 #28477] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679951836288285%22%7D&uuid=d4140607-d0c6-4e97-9d6c-db1a2ab6ed3d
+D, [2019-09-09T12:19:05.663027 #28477] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:19:05.663824 #28477] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:19:05.674610 #28477] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:19:05.674751 #28477] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:19:05.674837 #28477] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '4026fe5f-0b56-4143-8f13-d6759b65322a'.
+D, [2019-09-09T12:19:05.677245 #28477] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:19:05.677537 #28477] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:19:05.677587 #28477] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:19:05.677694 #28477] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:19:05.678088 #28477] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679955455998812%22%7D&uuid=d4140607-d0c6-4e97-9d6c-db1a2ab6ed3d
+D, [2019-09-09T12:19:05.772180 #28571] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:19:05.772630 #28571] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679951836288285%22%7D&uuid=cfc01410-10b5-4388-bfc5-37358d7a613d
+D, [2019-09-09T12:19:05.772834 #28571] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:19:05.773085 #28571] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:19:05.774678 #28571] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:19:05.774772 #28571] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:19:05.775016 #28571] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'f130b343-3f72-46af-90b9-113d78b35cad'.
+D, [2019-09-09T12:19:05.775811 #28571] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:19:05.775884 #28571] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:19:05.776110 #28571] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:19:05.776186 #28571] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:19:05.776619 #28571] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679955455998812%22%7D&uuid=cfc01410-10b5-4388-bfc5-37358d7a613d
+D, [2019-09-09T12:22:24.080179 #28571] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:22:24.084336 #28571] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679955455998812%22%7D&uuid=cfc01410-10b5-4388-bfc5-37358d7a613d
+D, [2019-09-09T12:22:24.084506 #28571] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:22:24.084287 #28477] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:22:24.084653 #28571] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:22:24.087357 #28477] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679955455998812%22%7D&uuid=d4140607-d0c6-4e97-9d6c-db1a2ab6ed3d
+D, [2019-09-09T12:22:24.088861 #28477] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:22:24.089321 #28477] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:22:24.089342 #28571] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:22:24.089416 #28571] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:22:24.089486 #28571] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'f130b343-3f72-46af-90b9-113d78b35cad'.
+D, [2019-09-09T12:22:24.094650 #28571] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:22:24.094822 #28571] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:22:24.094899 #28571] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:22:24.095239 #28571] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:22:24.095662 #28571] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679955455998812%22%7D&uuid=cfc01410-10b5-4388-bfc5-37358d7a613d
+D, [2019-09-09T12:22:24.100493 #28477] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:22:24.100641 #28477] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:22:24.100719 #28477] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '4026fe5f-0b56-4143-8f13-d6759b65322a'.
+D, [2019-09-09T12:22:24.104336 #28477] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:22:24.104436 #28477] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:22:24.104467 #28477] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:22:24.104578 #28477] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:22:24.104894 #28477] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679955455998812%22%7D&uuid=d4140607-d0c6-4e97-9d6c-db1a2ab6ed3d
+D, [2019-09-09T12:27:04.450256 #28571] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:27:04.450294 #28477] DEBUG -- Pubnub: Fire before fire_callback
+D, [2019-09-09T12:27:04.452888 #28571] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679955455998812%22%7D&uuid=cfc01410-10b5-4388-bfc5-37358d7a613d
+D, [2019-09-09T12:27:04.453114 #28477] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679955455998812%22%7D&uuid=d4140607-d0c6-4e97-9d6c-db1a2ab6ed3d
+D, [2019-09-09T12:27:04.453202 #28571] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:27:04.453326 #28571] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:27:04.453499 #28477] DEBUG -- Pubnub::Event: Event#handle
+D, [2019-09-09T12:27:04.453629 #28477] DEBUG -- Pubnub::SubscribeEvent::Formatter: Formatting non-error envelopes
+D, [2019-09-09T12:27:04.454601 #28571] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:27:04.454685 #28571] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:27:04.454737 #28571] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener 'f130b343-3f72-46af-90b9-113d78b35cad'.
+D, [2019-09-09T12:27:04.454946 #28477] DEBUG -- Pubnub: Firing callbacks for Pubnub::Subscribe
+D, [2019-09-09T12:27:04.455043 #28477] DEBUG -- Pubnub::Subscriber: Firing callback from listeners
+D, [2019-09-09T12:27:04.455095 #28477] DEBUG -- Pubnub::Subscriber: Firing callbacks from listener '4026fe5f-0b56-4143-8f13-d6759b65322a'.
+D, [2019-09-09T12:27:04.455858 #28571] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:27:04.455936 #28477] DEBUG -- Pubnub: Fired event Pubnub::Subscribe
+D, [2019-09-09T12:27:04.456017 #28571] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:27:04.456111 #28571] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:27:04.456113 #28477] DEBUG -- Pubnub: #send_request start
+D, [2019-09-09T12:27:04.456200 #28477] DEBUG -- Pubnub: #request_dispatcher
+D, [2019-09-09T12:27:04.456267 #28477] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:27:04.456714 #28477] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679955455998812%22%7D&uuid=d4140607-d0c6-4e97-9d6c-db1a2ab6ed3d
+D, [2019-09-09T12:27:04.457395 #28571] DEBUG -- Pubnub::Client: Looking for requester for async subscribe_event
+D, [2019-09-09T12:27:04.458197 #28571] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/subscribe/sub-c-c197d3f6-d2a0-11e9-a890-82ed7f392ada/pubnub_onboarding_channel,pubnub_onboarding_channel-pnpres/0?pnsdk=PubNub-Ruby%2F4.1.6&t=%7B%22r%22%3A4%2C%22t%22%3A%2215679955455998812%22%7D&uuid=cfc01410-10b5-4388-bfc5-37358d7a613d

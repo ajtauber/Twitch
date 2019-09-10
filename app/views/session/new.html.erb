@@ -1,0 +1,22 @@
+<div class="login">
+
+<h1 class="fontalicious">Login</h1>
+<p class="hvr-grow">Enter your Email and Password below</p>
+<%= flash[:error] %>
+
+<%= form_tag login_path do %>
+  <div class="col-md-9">
+    <%= label_tag :email,'Email' ,:class => 'hvr-grow' %>
+    <%= email_field_tag :email, nil, :class => 'hvr-grow form-control' %>
+  </div>
+
+  <div class="col-md-3">
+    <%= label_tag :password %>
+    <%= password_field_tag :password, nil, :class => 'hvr-grow form-control' %>
+  </div>
+
+  <%= submit_tag "Sign in", :class => 'hvr-grow btn-lg btn-success' %>
+<% end %>
+
+
+</div>
