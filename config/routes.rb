@@ -18,6 +18,7 @@ Rails.application.routes.draw do
 
   get '/about' => 'about#index'
   get '/streamers' => 'twitch#streamers'
+  get '/twitch/team' => 'twitch#team'
   get '/twitchapp' => 'about#index'
 
   get '/login' => 'session#new'
