@@ -9,7 +9,7 @@
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
 
-    
+
   </head>
 
   <body>
@@ -20,7 +20,7 @@
         <%= link_to "About Page", about_index_path, :class => "navbar-brand" %>
         <%= link_to "Search for Streamers", twitch_search_path, :class => "navbar-brand" %>
         <%= link_to "Streamed Games", twitch_search_path, :class => "navbar-brand" %>
-        <%= link_to "Teams", twitch_team_path, :class => "navbar-brand" %>
+        <%= link_to "Teams", twitch_teams_path, :class => "navbar-brand" %>
           <% if @current_user.present? %>
             <%= link_to "Log out #{ @current_user.email }", login_path, :method => 'delete', :class => "navbar-brand navbar-nav ml-auto"%>
           <% else %>

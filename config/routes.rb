@@ -19,8 +19,10 @@ Rails.application.routes.draw do
   get '/about' => 'about#index'
   get '/streamers' => 'twitch#streamers'
   get '/twitch/team' => 'twitch#team'
+  get '/twitch/teams' => 'twitch#teams'
   get '/twitchapp' => 'about#index'
-
+  get '/featured' => 'featured#streamers'
+  get '/twitch/users' => 'twitch#twitchusers'
   get '/login' => 'session#new'
   post '/login' => 'session#create'
   delete '/login' => 'session#destroy'

@@ -1,22 +1,5 @@
-<h1>Teams</h1>
+<h1>Team</h1>
 
 <div class="jumbotron">
-    <% @teams["teams"].each do |team| %>
-
-      <div class="card" style="width: 18rem;">
-        <img src="<%= team["logo"] %>" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title"><%= team["name"] %></h5>
-        <p class="card-text">Created at: <%= team["created_at"]%></p>
-        <p class="card-text">
-        <% begin %>
-          <%== team["info"] %>
-        <% rescue; end %>
-        </p>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-
-  <% end %>
+    
 </div>

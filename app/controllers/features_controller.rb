@@ -1,4 +1,4 @@
 class FeaturesController < ApplicationController
-  def streamers
+  def featured
   end
 end
