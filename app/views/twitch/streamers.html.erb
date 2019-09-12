@@ -8,7 +8,7 @@
     <% @streamers["data"].each_slice(3) do |streamers_by_3| %>
     <div class="row">
       <% streamers_by_3.each do |streamer| %>
-      <div class="col-md-4">
+      <div class="col-md-12">
         <div class="card">
             <img src="<%= streamer["profile_image_url"] %>" class="card-img-top" alt="Twitch Team Logos">
         <div class="card-body">

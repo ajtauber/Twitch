@@ -1,7 +1,13 @@
-<h1>Teams</h1>
-<%= @teams %>
-
 <div class="jumbotron">
+  <h1 class="display-4">Teams</h1>
+  <div class="col-sm-6">
+    <h3>Search for a Stream Team</h3>
+    <%= form_tag twitch_team_path, :method => 'get' do %>
+      <%= label_tag :name %>
+      <%= text_field_tag :team, nil, :required => true %>
+    <%= submit_tag :Search %>
+    <% end %>
+  </div>
   <div class="container">
     <% @teams["teams"].each_slice(3) do |teams_by_3| %>
     <div class="row">
@@ -32,13 +38,4 @@
   </div> <!-- ROW -->
     <% end %>
   </div> <!-- CONTAINER -->
-
-  <div class="col-sm-6">
-    <h3>Search for a Stream Team</h3>
-    <%= form_tag twitch_team_path, :method => 'get' do %>
-      <%= label_tag :name %>
-      <%= text_field_tag :team, nil, :required => true %>
-    <%= submit_tag :Search %>
-    <% end %>
-  </div>
 </div> <!-- JUMBOTRON -->

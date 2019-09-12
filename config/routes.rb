@@ -17,12 +17,14 @@ Rails.application.routes.draw do
   get '/twitch/search' => 'twitch#form'
 
   get '/about' => 'about#index'
-  get '/streamers' => 'twitch#streamers'
-  get '/twitch/team' => 'twitch#team'
-  get '/twitch/teams' => 'twitch#teams'
-  get '/twitchapp' => 'about#index'
-  get '/featured' => 'featured#streamers'
+  get '/streamers' => 'twitch#streamers' # Displays all top streamers
+  get '/twitch/team' => 'twitch#team' # Search for a specific team
+  get '/twitch/teams' => 'twitch#teams' # All Featured Teams Displayed
+  get '/twitchapp' => 'about#index' # For Auth Gem
   get '/twitch/users' => 'twitch#twitchusers'
+
+  get '/maps' => 'map#index'
+
   get '/login' => 'session#new'
   post '/login' => 'session#create'
   delete '/login' => 'session#destroy'

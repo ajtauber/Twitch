@@ -1,7 +1,35 @@
 <h1>Team</h1>
 
 <div class="jumbotron">
-  
-  <%= @team %>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+            <img src="<%= @team["logo"] %>" class="card-img-responsive mx-auto d-block image" alt="Twitch Team Logos">
+        <div class="card-body">
+        <h5 class="card-title title"><%= @team["display_name"] %></h5>
+        <p class="card-text">Description: <%= @team["description"]%></p>
+        <% @team["users"].each_slice(4) do |team_by_3| %>
+          <div class="row">
+          <% team_by_3.each do |member| %>
+          <div class="col-md-3">
+            <img src="<%= member["logo"] %>" alt="Member logos" class="img-responsive image2">
+            <a href="<%= member["url"] %>">Member</a>
+            <p><%= member["view_count"] %></p>
+            <p><%= member["followers"] %></p>
+          </div>
+          <% end %>
+          </div>
+
+        <% end %>
+
+
+      </div>
+    </div>
+  </div>
+
+  </div> <!-- ROW -->
+
+  </div> <!-- CONTAINER -->
 
 </div>

@@ -41,19 +41,20 @@ class TwitchController < ApplicationController
     @teams = HTTParty.get "https://api.twitch.tv/kraken/teams/#{@team}",  {:headers => {'Client-ID' => ENV['TWITCH_CLIENT_ID']}}
     # @teams = HTTParty.get "https://api.twitch.tv/kraken/teams", {:headers => {'Client-ID' => ENV['TWITCH_CLIENT_ID']}}
 
-
-    # Getting a Specific team
-
   end
 
   def team
     @team = params[:team].downcase
 
     @team =  HTTParty.get "https://api.twitch.tv/kraken/teams/#{@team}",  {:headers => {'Client-ID' => ENV['TWITCH_CLIENT_ID']}}
+    if @team["error"].present?
+      render :team_error
+    else
+      render :team
+    end
   end
 
   def video
     @video = HTTParty.get "https://api.twitch.tv/kraken/videos/#{@video}", {:headers => {'Client-ID' => ENV['TWITCH_CLIENT_ID']}}
-
   end
 end

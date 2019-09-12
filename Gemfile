@@ -50,7 +50,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jquery-rails'
 gem 'bootstrap'
 # gem 'cloudinary'
-# gem 'yt', '~> 0.32.0'
 gem 'httparty'
 gem 'pubnub', '~> 4.1.6'
 gem 'google-api-client', '~> 0.11'
