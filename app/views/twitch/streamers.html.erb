@@ -1,46 +1,50 @@
-<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
-
 <div class="jumbotron">
-<h1>Streamer: <%= @streamer %></h1>
-
 <!-- login, display_name, description, profile_image_url, offline_image_url, view_count -->
+
   <div class="container">
+    <!-- Getting the data to be split into 3 sections -->
     <% @streamers["data"].each_slice(3) do |streamers_by_3| %>
+
     <div class="row">
+      <!-- From splitted section getting 1 Streamer into each row -->
       <% streamers_by_3.each do |streamer| %>
       <div class="col-md-12">
+
         <div class="card">
-            <img src="<%= streamer["profile_image_url"] %>" class="card-img-top" alt="Twitch Team Logos">
+
+            <img src="<%= streamer["profile_image_url"] %>" class="card-img-top image" alt="Twitch Team Logos">
+
         <div class="card-body">
+          <!-- Display Name of each streamer -->
         <h5 class="card-title title"><%= streamer["display_name"] %></h5>
+
         <p class="card-text">Description: <%= streamer["description"]%></p>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="https:/twitch.tv/<%= @streamer %>" class="btn btn-primary">View Stream</a>
+
+
+          <!-- Add a placeholder for the Twitch embed -->
+        <div id="twitch-embed"></div>
+        </div>
+        </div>
       </div>
-    </div>
-
-
-  </div>
-  <% end %>
-  </div> <!-- ROW -->
+      <% end %>
+    </div> <!-- ROW -->
     <% end %>
   </div> <!-- CONTAINER -->
-
-
 </div> <!-- JUMBOTRON -->
 
+<!-- Load the Twitch embed script -->
 
-<!-- Embed Twitch video for each search <request></request> -->
-<!-- <div id="<player div ID>"></div> -->
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
 
-<!--
+
+<!--  -->
+
 <script type="text/javascript">
-  var options = {
-    width: 400,
-    height: 300,
-    channel: "",
-  };
-  var player = new Twitch.Player("<player div ID>", options);
-  player.setVolume(0.5);
+  new Twitch.Embed("twitch-embed", {
+    width: 990,
+    height: 480,
+    channel: "<%= @streamer %>",
+    muted:true,
+  });
 </script>
--->

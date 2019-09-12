@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   resources :users
   resources :about
-
+# Twitch Section
   get '/twitch' => 'twitch#info'
 
   get '/twitch/search' => 'twitch#form'
@@ -23,8 +23,10 @@ Rails.application.routes.draw do
   get '/twitchapp' => 'about#index' # For Auth Gem
   get '/twitch/users' => 'twitch#twitchusers'
 
+  # Displaying the map API
   get '/maps' => 'map#index'
-
+  get '/youtube' => 'youtube#info'
+  # Gets Logins
   get '/login' => 'session#new'
   post '/login' => 'session#create'
   delete '/login' => 'session#destroy'

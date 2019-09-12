@@ -49,10 +49,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jquery-rails'
 gem 'bootstrap'
-# gem 'cloudinary'
+############# Gems Im using ###########################
 gem 'httparty'
 gem 'pubnub', '~> 4.1.6'
 gem 'google-api-client', '~> 0.11'
 gem 'yt', '~> 0.32.0'
-# gem 'twitch', '~> 0.1.0'
 gem 'omniauth-twitch', github: 'paladinsoftware/omniauth-twitch-helix'
+# gem 'trollop'

@@ -1,5 +1,4 @@
 class TwitchController < ApplicationController
-
   def show
 
   end
@@ -17,8 +16,6 @@ class TwitchController < ApplicationController
 
     @cursor = @streams['pagination']['cursor'] if @streams['pagination']
 
-    # videos = Yt::Collections::Videos.new
-    # @id = videos.where(q: @name + ' Original Trailer', order: 'viewCount').first.id
   end
 
   def form

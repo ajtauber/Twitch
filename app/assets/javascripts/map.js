@@ -1,0 +1,90 @@
+function getNonZeroRandomNumber(){
+
+  var random = Math.floor(Math.random()*199) - 99;
+  if(random==0) return getNonZeroRandomNumber();
+  return random;
+
+}
+  var pn = new PubNub({
+    publishKey: "<%= ENV['PUBNUB_PUBLISH_KEY'] %>",
+    subscribeKey: "<%= ENV['PUBNUB_SUBSCRIBE_KEY']%>",
+    ssl: (('https:' == document.location.protocol) ? true : false)
+  });
+
+  function getNonZeroRandomNumber(){
+    var random = Math.floor(Math.random()*199) - 99;
+    if(random==0) return getNonZeroRandomNumber();
+    return random;
+  }
+
+  var channel = 'pubnub-mapbox-' + getNonZeroRandomNumber();
+
+  var map = eon.map({
+    pubnub: pn,
+    id: 'map',
+    mbId: 'ianjennings.l896mh2e',
+    mbToken: 'pk.eyJ1IjoiaWFuamVubmluZ3MiLCJhIjoiZExwb0p5WSJ9.XLi48h-NOyJOCJuu1-h-Jg',
+    channels:[channel],
+    connect: connect,
+    message: function (data) {
+      map.setView(data[3].latlng, 13);
+    }
+  });
+
+  function connect() {
+
+    var me = {
+      icon: {
+        'marker-color': '#ce1126'
+      }
+    };
+    var them = {
+      icon: {
+        'marker-color': '#29abe2'
+      }
+    };
+
+    var torchys = [
+      {
+        latlng: [30.370375, -97.756138]
+      },
+      {
+        latlng: [30.323118, -97.739144]
+      },
+      {
+        latlng: [30.302816, -97.699490]
+      },
+      {
+        latlng: [30.293479, -97.742405]
+      },
+      {
+        latlng: [30.250337, -97.754593]
+      },
+      {
+        latlng: [30.236689, -97.762730]
+      }
+    ];
+
+    setInterval(function(){
+
+      var new_torchys = JSON.parse(JSON.stringify(torchys));
+      for (var i = 0; i < new_torchys.length; i++) {
+
+        new_torchys[i] = {
+          marker: new_torchys[i].marker,
+          latlng: [
+            new_torchys[i].latlng[0] + (getNonZeroRandomNumber() * 0.0002),
+            new_torchys[i].latlng[1] + (getNonZeroRandomNumber() * 0.0002)
+          ]
+        }
+
+      }
+
+      pn.publish({
+        channel: channel,
+        message: new_torchys
+      });
+
+    }, 1000);
+
+  };

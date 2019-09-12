@@ -9,6 +9,7 @@
         <div class="card-body">
         <h5 class="card-title title"><%= @team["display_name"] %></h5>
         <p class="card-text">Description: <%= @team["description"]%></p>
+
         <% @team["users"].each_slice(4) do |team_by_3| %>
           <div class="row">
           <% team_by_3.each do |member| %>
@@ -20,10 +21,7 @@
           </div>
           <% end %>
           </div>
-
         <% end %>
-
-
       </div>
     </div>
   </div>
