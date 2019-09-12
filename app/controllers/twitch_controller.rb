@@ -27,7 +27,7 @@ class TwitchController < ApplicationController
   def streamers
     @streamer = params[:streamer]
     # @streamers = HTTParty.get "https://api.twitch.tv/helix/streams?user_name=#{@streamer}", {:headers => {'Client-ID' => ENV['TWITCH_CLIENT_ID']}}
-    # GET https://api.twitch.tv/helix/users?login=<username>
+
     @streamers = HTTParty.get "https://api.twitch.tv/helix/users?login=#{@streamer}", {:headers => {'Client-ID' => ENV['TWITCH_CLIENT_ID']}}
 
   end
@@ -38,15 +38,18 @@ class TwitchController < ApplicationController
   end
 
   def teams
-    @team = params[:team]
     @teams = HTTParty.get "https://api.twitch.tv/kraken/teams/#{@team}",  {:headers => {'Client-ID' => ENV['TWITCH_CLIENT_ID']}}
+    # @teams = HTTParty.get "https://api.twitch.tv/kraken/teams", {:headers => {'Client-ID' => ENV['TWITCH_CLIENT_ID']}}
+
 
     # Getting a Specific team
 
   end
 
-  def create
+  def team
+    @team = params[:team].downcase
 
+    @team =  HTTParty.get "https://api.twitch.tv/kraken/teams/#{@team}",  {:headers => {'Client-ID' => ENV['TWITCH_CLIENT_ID']}}
   end
 
   def video

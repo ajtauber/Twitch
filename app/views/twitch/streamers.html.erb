@@ -1,23 +1,46 @@
 <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
 
 <div class="jumbotron">
-<h1>Streamer: <%=@streamer %></h1>
+<h1>Streamer: <%= @streamer %></h1>
 
 <!-- login, display_name, description, profile_image_url, offline_image_url, view_count -->
+  <div class="container">
+    <% @streamers["data"].each_slice(3) do |streamers_by_3| %>
+    <div class="row">
+      <% streamers_by_3.each do |streamer| %>
+      <div class="col-md-4">
+        <div class="card">
+            <img src="<%= streamer["profile_image_url"] %>" class="card-img-top" alt="Twitch Team Logos">
+        <div class="card-body">
+        <h5 class="card-title title"><%= streamer["display_name"] %></h5>
+        <p class="card-text">Description: <%= streamer["description"]%></p>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
 
-<%= @streamers["data"][0] %>
+
+  </div>
+  <% end %>
+  </div> <!-- ROW -->
+    <% end %>
+  </div> <!-- CONTAINER -->
+
+
+</div> <!-- JUMBOTRON -->
+
 
 <!-- Embed Twitch video for each search <request></request> -->
-<div id="<player div ID>"></div>
+<!-- <div id="<player div ID>"></div> -->
 
-
+<!--
 <script type="text/javascript">
   var options = {
     width: 400,
     height: 300,
-    channel: "<%= @streamers %>",
+    channel: "",
   };
   var player = new Twitch.Player("<player div ID>", options);
   player.setVolume(0.5);
 </script>
-</div>
+-->
