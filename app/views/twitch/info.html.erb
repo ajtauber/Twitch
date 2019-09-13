@@ -1,9 +1,7 @@
 <div class="jumbotron">
   <div class="container">
     <div>
-    <button class="btn btn-link">
-    <%= link_to 'Next', twitch_path(:cursor => @cursor, :name => params[:name]) %>
-    </button>
+
     <%= @streams["data"].each_slice(3) do |data_by_3| %>
 
       <div class="row">
@@ -16,7 +14,7 @@
 
         <div class="card-title">
           <% begin %>
-            <%= data["user_name"] %>
+            <a href="http://twitch.tv/<%= data["user_name"] %>"><%=data["user_name"]%></a>
         </div>
 
             <%= data["title"] %>
@@ -29,7 +27,9 @@
     <% end %>
 
     </div>
-
+    <button class="btn btn-link right">
+    <%= link_to 'Next', twitch_path(:cursor => @cursor, :name => params[:name]) %>
+    </button>
 
     </div>
 

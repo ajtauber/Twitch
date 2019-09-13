@@ -1,4 +1,3 @@
-
 <script type="text/javascript" src="https://pubnub.github.io/eon/v/eon/1.0.0/eon.js"></script>
 <link type="text/css" rel="stylesheet" href="https://pubnub.github.io/eon/v/eon/1.0.0/eon.css"/>
     <style>
@@ -13,95 +12,99 @@
 
     <script>
       function getNonZeroRandomNumber(){
+
         var random = Math.floor(Math.random()*199) - 99;
         if(random==0) return getNonZeroRandomNumber();
         return random;
+
       }
+        var pn = new PubNub({
+          publishKey: "<%= ENV['PUBNUB_PUBLISH_KEY'] %>",
+          subscribeKey: "<%= ENV['PUBNUB_SUBSCRIBE_KEY']%>",
+          ssl: (('https:' == document.location.protocol) ? true : false)
+        });
 
-      var pn = new PubNub({
-        publishKey: "<%= ENV['PUBNUB_PUBLISH_KEY'] %>",
-        subscribeKey: "<%= ENV['PUBNUB_SUBSCRIBE_KEY']%>",
-        ssl: (('https:' == document.location.protocol) ? true : false)
-      });
-
-      function getNonZeroRandomNumber(){
-        var random = Math.floor(Math.random()*199) - 99;
-        if(random==0) return getNonZeroRandomNumber();
-        return random;
-      }
-
-      var channel = 'pubnub-mapbox-' + getNonZeroRandomNumber();
-
-      var map = eon.map({
-        pubnub: pn,
-        id: 'map',
-        mbId: 'ianjennings.l896mh2e',
-        mbToken: 'pk.eyJ1IjoiaWFuamVubmluZ3MiLCJhIjoiZExwb0p5WSJ9.XLi48h-NOyJOCJuu1-h-Jg',
-        channels:[channel],
-        connect: connect,
-        message: function (data) {
-          map.setView(data[3].latlng, 13);
+        function getNonZeroRandomNumber(){
+          var random = Math.floor(Math.random()*199) - 99;
+          if(random==0) return getNonZeroRandomNumber();
+          return random;
         }
-      });
 
-      function connect() {
+        var channel = 'pubnub-mapbox-' + getNonZeroRandomNumber();
 
-        var me = {
-          icon: {
-            'marker-color': '#ce1126'
+        var map = eon.map({
+          pubnub: pn,
+          id: 'map',
+          mbId: 'ianjennings.l896mh2e',
+          mbToken: 'pk.eyJ1IjoiaWFuamVubmluZ3MiLCJhIjoiZExwb0p5WSJ9.XLi48h-NOyJOCJuu1-h-Jg',
+          channels:[channel],
+          connect: connect,
+          message: function (data) {
+            map.setView(data[3].latlng, 13);
           }
-        };
-        var them = {
-          icon: {
-            'marker-color': '#29abe2'
-          }
-        };
+        });
 
-          // torchys are the markers set on the map
-        var torchys = [
+        function connect() {
 
-          {
-            latlng: [30.323118, -97.739144]
-          },
-          {
-            latlng: [30.302816, -97.699490]
-          },
-          {
-            latlng: [30.293479, -97.742405]
-          },
-          {
-            latlng: [30.250337, -97.754593]
-          },
-          {
-            latlng: [30.236689, -97.762730]
-          }
-        ];
-        // Parsing the markers within a setInterval which loops through random variables of lat and long within the map
+          var me = {
+            icon: {
+              'marker-color': '#ce1126'
+            }
+          };
+          var them = {
+            icon: {
+              'marker-color': '#29abe2'
+            }
+          };
 
-        setInterval(function(){
+          var torchys = [
+            {
+              latlng: [30.370375, -97.756138]
+            },
+            {
+              latlng: [30.323118, -97.739144]
+            },
+            {
+              latlng: [45.0232323, -97.699490]
+            },
+            {
+              latlng: [30.293479, -97.742405]
+            },
+            {
+              latlng: [30.250337, -97.754593]
+            },
+            {
+              latlng: [30.236689, -97.762730]
+            }
+          ];
 
-        // stringify converts a JavaScript object or value to a JSON string.
+          setInterval(function(){
 
-          var new_torchys = JSON.parse(JSON.stringify(torchys));
-          for (var i = 0; i < new_torchys.length; i++) {
+            var new_torchys = JSON.parse(JSON.stringify(torchys));
+            for (var i = 0; i < new_torchys.length; i++) {
 
-            new_torchys[i] = {
-              marker: new_torchys[i].marker,
-              latlng: [
-                new_torchys[i].latlng[0] + (getNonZeroRandomNumber() * 0.0002),
-                new_torchys[i].latlng[1] + (getNonZeroRandomNumber() * 0.0002)
-              ]
+              new_torchys[i] = {
+                marker: new_torchys[i].marker,
+                latlng: [
+                  new_torchys[i].latlng[0] + (getNonZeroRandomNumber() * 0.0002),
+                  new_torchys[i].latlng[1] + (getNonZeroRandomNumber() * 0.0002)
+                ]
+              }
+
             }
 
-          }
+            pn.publish({
+              channel: channel,
+              message: new_torchys
+            });
 
-          pn.publish({
-            channel: channel,
-            message: new_torchys
-          });
+          }, 2000);
 
-        }, 1000);
+        };
 
-      };
 
     </script>
+
+  <body>
+    <button type="button" name="button">ASDSDS</button>
+  </body>

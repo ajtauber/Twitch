@@ -1,12 +1,13 @@
-<div class="container">
-  <div class="row">
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
       <div class="col-sm-6">
-    <%= form_tag twitch_path, :role => "form", :method => 'get' do %>
-    <%= label_tag :game %>
-    <%= text_field_tag :name, nil, :required => true %>
-  <%= submit_tag :Search %>
-  <% end %>
-    </div>
+        <%= form_tag twitch_path, :role => "form", :method => 'get' do %>
+          <%= label_tag :game %>
+          <%= text_field_tag :name, nil, :required => true %>
+          <%= submit_tag :Search %>
+        <% end %>
+      </div>
 
       <div class="col-sm-6">
         <%= form_tag streamers_path, :method => 'get' do %>
@@ -21,4 +22,5 @@
       </div>
   </div>
 
+  </div>
 </div>

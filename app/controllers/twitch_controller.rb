@@ -35,7 +35,9 @@ class TwitchController < ApplicationController
   end
 
   def teams
-    @teams = HTTParty.get "https://api.twitch.tv/kraken/teams/#{@team}",  {:headers => {'Client-ID' => ENV['TWITCH_CLIENT_ID']}}
+
+    @teams = HTTParty.get "https://api.twitch.tv/helix/teams/#{@teams}",  {:headers => {'Client-ID' => ENV['TWITCH_CLIENT_ID']}}
+
     # @teams = HTTParty.get "https://api.twitch.tv/kraken/teams", {:headers => {'Client-ID' => ENV['TWITCH_CLIENT_ID']}}
 
   end
