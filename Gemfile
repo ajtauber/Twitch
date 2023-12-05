@@ -51,7 +51,7 @@ gem 'jquery-rails'
 gem 'bootstrap'
 ############# Gems Im using ###########################
 gem 'httparty'
-gem 'pubnub', '~> 4.1.6'
+gem 'pubnub', '~> 5.3.0'
 gem 'google-api-client', '~> 0.11'
 gem 'yt', '~> 0.32.0'
 gem 'omniauth-twitch', github: 'paladinsoftware/omniauth-twitch-helix'
